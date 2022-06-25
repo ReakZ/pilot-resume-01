@@ -235,3 +235,66 @@ body {
 .form__label {
   margin-bottom: 10px;
 }
+
+/* Adaptive */
+@media (max-width: 768px) {
+  .brand {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: column;
+
+    margin-top: 15px;
+  }
+  .header__wrapper {
+    justify-content: center;
+  }
+  .wrapper {
+    width: 600px;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+
+  .main__footer {
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about__text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .about__form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .wrapper {
+    width: 400px;
+  }
+  .main__subtitle {
+    font-size: 48px;
+  }
+  .ghost-container__text {
+    font-size: 90px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .main__footer {
+    width: 60%;
+  }
+  .ghost-container {
+    right: -120px;
+  }
+}
