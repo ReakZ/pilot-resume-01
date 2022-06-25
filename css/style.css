@@ -143,23 +143,23 @@ body {
 }
 
 /* --- about page --- */
-.about{
+.about {
   justify-content: space-between;
 }
-.about__text{
+.about__text {
   width: 65%;
 }
-.about__form{
+.about__form {
   margin-left: 30px;
   width: 30%;
 }
 
-.form{
+.form {
   flex-direction: column;
   display: flex;
 }
 
-.form__input{
+.form__input {
   margin-bottom: 20px;
   font-size: 14px;
   padding: 5px 10px;
@@ -169,16 +169,58 @@ body {
   border: none;
 }
 
-.about__title{
+.about__title {
   font-size: 36px;
   margin-bottom: 30px;
-
 }
-.form__textarea{
+.form__textarea {
   margin-bottom: 20px;
   font-size: 14px;
   padding: 5px 10px;
   border-radius: 8px;
   outline: none;
   border: none;
+}
+
+/* Services */
+
+.services__wrapper {
+  flex-direction: column;
+}
+
+.services__title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.services__content {
+  padding: 15px 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.service__title {
+  margin-bottom: 15px;
+}
+
+.serivce__skills {
+  display: flex;
+}
+.service__skill {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: tomato;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.service__skill:first-child {
+  margin-left: 0px;
 }
