@@ -28,6 +28,7 @@ body {
 
 .header {
   height: 80px;
+  margin-bottom: 50px;
 }
 
 .header__wrapper {
@@ -62,16 +63,81 @@ body {
   margin-left: 0;
 }
 
+.menu-list__link--active,
+.menu-list__link:hover {
+  color: tomato;
+}
+
 .btn {
+  display: block;
   height: 50px;
   min-width: 120px;
   color: white;
   background-color: transparent;
   border-radius: 8px;
-  border: none;
+  transition: 0.3s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 1px solid white;
 }
 
 .btn--red {
   background-color: tomato;
+  border: 1px solid tomato;
+}
+
+.btn:hover {
+  background-color: tomato;
+  border: 1px solid tomato;
+}
+.btn--red:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/* -------------------- main --------------- */
+
+.main {
+  height: calc(100vh - 130px);
+}
+
+.main__wrapper {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.main__title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.main__subtitle {
+  font-size: 64px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.ghost-container {
+  position: absolute;
+  z-index: -1;
+  right: 120px;
+}
+
+.ghost-container__text {
+  opacity: 0.1;
+  font-size: 120px;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.main__footer {
+  width: 40%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
