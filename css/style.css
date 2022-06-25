@@ -224,3 +224,14 @@ body {
 .service__skill:first-child {
   margin-left: 0px;
 }
+
+/* hire me */
+.hire-me {
+  flex-direction: column;
+}
+.hire-me__title {
+  margin-bottom: 20px;
+}
+.form__label {
+  margin-bottom: 10px;
+}
