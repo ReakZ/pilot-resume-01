@@ -141,3 +141,44 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* --- about page --- */
+.about{
+  justify-content: space-between;
+}
+.about__text{
+  width: 65%;
+}
+.about__form{
+  margin-left: 30px;
+  width: 30%;
+}
+
+.form{
+  flex-direction: column;
+  display: flex;
+}
+
+.form__input{
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+.about__title{
+  font-size: 36px;
+  margin-bottom: 30px;
+
+}
+.form__textarea{
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
